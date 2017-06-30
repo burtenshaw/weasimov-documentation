@@ -1,36 +1,28 @@
-# Introduction
-This document explains the basic interaction with AsiBot. AsiBot is a web-application that
-enables writers to interact with a text-generation system to create unique ouvres.
+# Inleiding
 
-# First login
-AsiBot is deployed over the web which requires a loging system.
-On first use of the application you will have to register a new user and password.
+Deze pagina geeft een bescrhrijving en handleiding van AsiBot. Asibot is een web-applicatie waarmee schrijvers een interactie kunnen aangaan met een geavanceerd tekstgeneratie-systeem om tot uniek nieuw materiaal te komen.
 
-# Structure of AsiBot
-AsiBot is designed with simplicity in mind. All the interaction takes place on a single
-page that includes a Text Editor, a toolbar controlling the settings of the text-generation 
-system (Generate Bar) and a panel displaying the output of the text-generation system 
-(Suggestions Panel).
+# Aanmelden
+Omdat AsiBot via het web wordt aangeboden, vragen we je om een account aan te maken via de registratie-pagina. Klik op de link 'registreer' of ga direct naar: http://localhost:5555/register.
 
-## The Generate Bar
+# Opzet van AsiBot
+De interface van AsiBot is zo simpel mogelijk gehouden. Alle interactie met de applicatie vindt plaats op een enkele pagina met drie onderdelen: (1) een tekst-editor, (2) een toolbar met een reeks knoppen om het tekstgeneratie-systeem aan te sturen, en (3) een panel waarin de tekstsuggesties van het systeem worden weergegeven. Hieronder bespreken we elk onderdeel 
+in iets meer detail.
+
+## Generatie-toolbar
 ![generate bar](/images/generate_bar.png)
 
-The generate bar displays a number of options controlling the text-generation system:
-- Creativity: the higher the more diversity but also the less grammatical the sentences will be.
-- Length: maximum number of character to generate.
+De generatie-toolbar geeft een aantal opties om het tekstgeneratie-systeem aan te sturen. De belangrijkste knoppen zijn de pastel-gekleurde knoppen aan de rechterkant, die elk tekst genereren in een bepaalde stijl. Houd de muis op een van de knoppen om de volledige naam van de stijl te zien. Na het klikken op een van de knoppen, geeft het systeem een aantal tekstsuggesties in de gekozen stijl. Deze suggesties zijn aanklikbaar en worden toegevoegd aan de tekst op de plaats waar de cursor in het tekstvak staat. Naast de genereer-knoppen geeft de toolbar nog twee andere opties: een creativiteitsschuif en een lengteschuif. De lengteschuif controleert hoe lang de gegeneerde tekst zal zijn in aantal karakters. (Dit kan soms betekenen dat AsiBot stopt in het midden van een woord) De creativiteitsschuif controleert hoe divers de gegenereerd tekst zal zijn. Lagere waardes zorgen voor conservatievere tekst; hogere voor creatievere tekst. Het is voor elk model wat zoeken naar een ideale waarde. De kans op ongrammaticale zinnen neemt toe met hogere waardes (maar soms worden wel erg leuke suggesties gedaan en worden zelfs nieuwe woorden bedacht). Lagere waardes kunnen soms wat eentonig aandoen, maar zijn vaak wel grammaticaal correct. 
 
-Additionally, AsiBot deploys a number of text-generation system fine-tuned to generate
-text in particular styles. Each system is color coded.
-
-## Suggestions
-Generated text is shown in the suggestions panel to the bottom of the page.
+## Tekstsuggesties
+Na het klikken op een van de generatie-knoppen, doet het systeem een aantal tekstsuggesties die onderaan de pagina worden weergegeven.
 ![suggestions](/images/suggestions.png)
 
-- The panel will open when you start generating text.
-- Each time you generate, you will get 5 new suggestions.
-- You can keep a number of suggestions in the suggestion panel (but bear in mind that **they will disappear whenever you refresh the page**).
-- You can remove individual items in order to maintain a list of preferred text.
-- The panel can be open and closed using the left-hand arrow.
+- Het panel opent direct na het genereren van tekst;
+- Elke generatie geeft vijf nieuwe suggesties;
+- Individuele suggesties kunnen bewaard worden of worden verwijderd. **Pas op: als je de pagina ververst zijn de laatste (bewaarde) suggesties niet meer beschikbaar.
+- Het suggestiepaneel kan gesloten worden met het pijltje aan de linkerkant.
+
 
 ## Text Editor
 
