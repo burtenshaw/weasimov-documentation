@@ -1,39 +1,44 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "The Basics\n\n\nLogging in\n\n\nOn first use of the application you will have to register a new user and password.\n\n\nThe Generate Bar\n\n\nThe generate bar fine tunes the generated text. \n\n\n\n\n\nChoose the level of creativity in the text.\n\n\nHow many words long the text is.\n\n\nWhich author to generate in the style of.\n\n\n\n\nSuggestions\n\n\nGenerated text is shown in the suggestions panel.\n\n\n\n\n\nThe panel will open after you have generated text.\n\n\nYou can keep items here throughout your session. \nWhen you refresh they will go\n.\n\n\nYou can remove individual items in order to maintain a list of preferred text.\n\n\nThe panel can be open and closed using the left-hand arrow.\n\n\n\n\nAnnotation\n\n\n\n\n\n\nAs text is inserted into the document it will use the annotation of the model that was used.\n\n\nThe user's text will appear in white.\n\n\nAs you edit the generated text, its annotation will fade to white.\n\n\n\n\nSaving Data\n\n\nYour text is saved automatically.",
+            "location": "/", 
+            "text": "Inleiding\n\n\nDeze pagina geeft een bescrhrijving en handleiding van AsiBot. Asibot is een web-applicatie waarmee schrijvers een interactie kunnen aangaan met een geavanceerd tekstgeneratie-systeem.\n\n\nAanmelden\n\n\nOmdat AsiBot via het web wordt aangeboden, vragen we je om een account aan te maken via de registratie-pagina. Klik op de link 'registreer'.\n\n\nOpzet van AsiBot\n\n\nDe interface van AsiBot is zo simpel mogelijk gehouden. Alle interactie met de applicatie vindt plaats op een enkele pagina met drie onderdelen: (1) een toolbar met een reeks knoppen om het tekstgeneratie-systeem aan te sturen, en (2) een panel waarin de tekstsuggesties van het systeem worden weergegeven, en (3) een tekst-editor. Hieronder bespreken we elk onderdeel \nin iets meer detail.\n\n\nGeneratie-toolbar\n\n\n\n\nDe generatie-toolbar geeft een aantal opties om het tekstgeneratie-systeem aan te sturen. De belangrijkste knoppen zijn de pastel-gekleurde knoppen aan de rechterkant, die elk tekst genereren in een bepaalde 'stijl'. Houd de muis op een van de knoppen om de volledige naam van de stijl te zien. Na het klikken op een van de knoppen, geeft het systeem een aantal tekstsuggesties in de gekozen stijl. Deze suggesties zijn aanklikbaar en worden toegevoegd aan de tekst op de plaats waar de cursor in het tekstvak staat. Naast de genereer-knoppen geeft de toolbar nog twee andere opties: een creativiteitsschuif en een lengteschuif. De lengteschuif controleert hoe lang de gegeneerde tekst zal zijn in aantal karakters. De creativiteitsschuif controleert hoe divers de gegenereerd tekst zal zijn. Lagere waardes zorgen voor conservatievere tekst; hogere voor creatievere tekst. Het is voor elk model wat zoeken naar een ideale waarde. De kans op ongrammaticale zinnen neemt toe met hogere waardes (maar soms worden wel erg leuke suggesties gedaan en worden zelfs nieuwe woorden bedacht). Lagere waardes kunnen soms wat eentonig aandoen, maar zijn vaak wel grammaticaal correct. Ideale waardes liggen vaak tussen 0.3 en 0.5, maar experimenteren is het beste advies.\n\n\nTekstsuggesties\n\n\nNa het klikken op een van de generatie-knoppen, doet het systeem een aantal tekstsuggesties die onderaan de pagina worden weergegeven.\n\n\n\n\n\nElke generatie geeft drie nieuwe suggesties;\n\n\nIndividuele suggesties kunnen bewaard worden of worden verwijderd. \nPas op: als je de pagina ververst zijn de laatste (bewaarde) suggesties niet meer beschikbaar.\n\n\nHet suggestiepaneel kan gesloten worden met het pijltje aan de linkerkant.\n\n\n\n\nTeksteditor\n\n\nAsiBot implementeert een conventionele teksteditor waarmee gebruikelijke opmaak (zoals bold, cursief, etc) toegevoegd kan worden aan de tekst. Uniek aan de editor is dat er doormiddel van kleuren de herkomst van de tekst wordt bijgehouden. \n\n\n\n\nDe tekstkleuring werkt als volgt:\n- Elke aan de tekst toegevoegde tekstsuggestie krijgt een kleur die correspondeert met het model op basis waarvan die is gegenereerd.\n- \nAlle tekst, ook geneneerde, is aanpasbaar.\n Bij meer aanpassingen in gegeneerde tekst, zal de intensiteit van de kleur afnemen. Hieronder geven we nog enkele details over de tekstkleuring:\n- Originele gebruikerstekst wordt weergegeven zonder achtergrondkleur.\n\n\nOpslaan\n\n\nMaak je geen zorgen over het opslaan van de tekst: alle tekst (inclusief tekstkleuring) wordt voortdurend automatisch opgeslagen. De browser kan ook worden gesloten. Na het inloggen wordt de laatste save geladen.", 
             "title": "Home"
-        },
+        }, 
         {
-            "location": "/#the-basics",
-            "text": "",
-            "title": "The Basics"
-        },
+            "location": "/#inleiding", 
+            "text": "Deze pagina geeft een bescrhrijving en handleiding van AsiBot. Asibot is een web-applicatie waarmee schrijvers een interactie kunnen aangaan met een geavanceerd tekstgeneratie-systeem.", 
+            "title": "Inleiding"
+        }, 
         {
-            "location": "/#logging-in",
-            "text": "On first use of the application you will have to register a new user and password.",
-            "title": "Logging in"
-        },
+            "location": "/#aanmelden", 
+            "text": "Omdat AsiBot via het web wordt aangeboden, vragen we je om een account aan te maken via de registratie-pagina. Klik op de link 'registreer'.", 
+            "title": "Aanmelden"
+        }, 
         {
-            "location": "/#the-generate-bar",
-            "text": "The generate bar fine tunes the generated text.    Choose the level of creativity in the text.  How many words long the text is.  Which author to generate in the style of.",
-            "title": "The Generate Bar"
-        },
+            "location": "/#opzet-van-asibot", 
+            "text": "De interface van AsiBot is zo simpel mogelijk gehouden. Alle interactie met de applicatie vindt plaats op een enkele pagina met drie onderdelen: (1) een toolbar met een reeks knoppen om het tekstgeneratie-systeem aan te sturen, en (2) een panel waarin de tekstsuggesties van het systeem worden weergegeven, en (3) een tekst-editor. Hieronder bespreken we elk onderdeel \nin iets meer detail.", 
+            "title": "Opzet van AsiBot"
+        }, 
         {
-            "location": "/#suggestions",
-            "text": "Generated text is shown in the suggestions panel.   The panel will open after you have generated text.  You can keep items here throughout your session.  When you refresh they will go .  You can remove individual items in order to maintain a list of preferred text.  The panel can be open and closed using the left-hand arrow.",
-            "title": "Suggestions"
-        },
+            "location": "/#generatie-toolbar", 
+            "text": "De generatie-toolbar geeft een aantal opties om het tekstgeneratie-systeem aan te sturen. De belangrijkste knoppen zijn de pastel-gekleurde knoppen aan de rechterkant, die elk tekst genereren in een bepaalde 'stijl'. Houd de muis op een van de knoppen om de volledige naam van de stijl te zien. Na het klikken op een van de knoppen, geeft het systeem een aantal tekstsuggesties in de gekozen stijl. Deze suggesties zijn aanklikbaar en worden toegevoegd aan de tekst op de plaats waar de cursor in het tekstvak staat. Naast de genereer-knoppen geeft de toolbar nog twee andere opties: een creativiteitsschuif en een lengteschuif. De lengteschuif controleert hoe lang de gegeneerde tekst zal zijn in aantal karakters. De creativiteitsschuif controleert hoe divers de gegenereerd tekst zal zijn. Lagere waardes zorgen voor conservatievere tekst; hogere voor creatievere tekst. Het is voor elk model wat zoeken naar een ideale waarde. De kans op ongrammaticale zinnen neemt toe met hogere waardes (maar soms worden wel erg leuke suggesties gedaan en worden zelfs nieuwe woorden bedacht). Lagere waardes kunnen soms wat eentonig aandoen, maar zijn vaak wel grammaticaal correct. Ideale waardes liggen vaak tussen 0.3 en 0.5, maar experimenteren is het beste advies.", 
+            "title": "Generatie-toolbar"
+        }, 
         {
-            "location": "/#annotation",
-            "text": "As text is inserted into the document it will use the annotation of the model that was used.  The user's text will appear in white.  As you edit the generated text, its annotation will fade to white.",
-            "title": "Annotation"
-        },
+            "location": "/#tekstsuggesties", 
+            "text": "Na het klikken op een van de generatie-knoppen, doet het systeem een aantal tekstsuggesties die onderaan de pagina worden weergegeven.   Elke generatie geeft drie nieuwe suggesties;  Individuele suggesties kunnen bewaard worden of worden verwijderd.  Pas op: als je de pagina ververst zijn de laatste (bewaarde) suggesties niet meer beschikbaar.  Het suggestiepaneel kan gesloten worden met het pijltje aan de linkerkant.", 
+            "title": "Tekstsuggesties"
+        }, 
         {
-            "location": "/#saving-data",
-            "text": "Your text is saved automatically.",
-            "title": "Saving Data"
+            "location": "/#teksteditor", 
+            "text": "AsiBot implementeert een conventionele teksteditor waarmee gebruikelijke opmaak (zoals bold, cursief, etc) toegevoegd kan worden aan de tekst. Uniek aan de editor is dat er doormiddel van kleuren de herkomst van de tekst wordt bijgehouden.    De tekstkleuring werkt als volgt:\n- Elke aan de tekst toegevoegde tekstsuggestie krijgt een kleur die correspondeert met het model op basis waarvan die is gegenereerd.\n-  Alle tekst, ook geneneerde, is aanpasbaar.  Bij meer aanpassingen in gegeneerde tekst, zal de intensiteit van de kleur afnemen. Hieronder geven we nog enkele details over de tekstkleuring:\n- Originele gebruikerstekst wordt weergegeven zonder achtergrondkleur.", 
+            "title": "Teksteditor"
+        }, 
+        {
+            "location": "/#opslaan", 
+            "text": "Maak je geen zorgen over het opslaan van de tekst: alle tekst (inclusief tekstkleuring) wordt voortdurend automatisch opgeslagen. De browser kan ook worden gesloten. Na het inloggen wordt de laatste save geladen.", 
+            "title": "Opslaan"
         }
     ]
 }

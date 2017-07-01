@@ -4,24 +4,25 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
+        
         
         
         <link rel="shortcut icon" href="./img/favicon.ico">
-        <title>Ik, Asimov</title>
+
+	<title>Ik, Asimov</title>
+
         <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/highlight.css">
+
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-	
-	<script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script> 
+
+        
     </head>
 
     <body class="homepage">
@@ -31,11 +32,15 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
+            
+
+            <!-- Main title -->
             <a class="navbar-brand" href=".">Ik, Asimov</a>
         </div>
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
+            
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -43,90 +48,112 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
+                
+                
             </ul>
         </div>
     </div>
 </div>
 
         <div class="container">
+            
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#the-basics">The Basics</a></li>
-            <li><a href="#logging-in">Logging in</a></li>
-            <li><a href="#the-generate-bar">The Generate Bar</a></li>
-            <li><a href="#suggestions">Suggestions</a></li>
-            <li><a href="#annotation">Annotation</a></li>
-            <li><a href="#saving-data">Saving Data</a></li>
+    
+        <li class="main active"><a href="#inleiding">Inleiding</a></li>
+        
+    
+        <li class="main "><a href="#aanmelden">Aanmelden</a></li>
+        
+    
+        <li class="main "><a href="#opzet-van-asibot">Opzet van AsiBot</a></li>
+        
+            <li><a href="#generatie-toolbar">Generatie-toolbar</a></li>
+        
+            <li><a href="#tekstsuggesties">Tekstsuggesties</a></li>
+        
+            <li><a href="#teksteditor">Teksteditor</a></li>
+        
+    
+        <li class="main "><a href="#opslaan">Opslaan</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="the-basics">The Basics</h1>
-<h2 id="logging-in">Logging in</h2>
-<p>On first use of the application you will have to register a new user and password.</p>
-<h2 id="the-generate-bar">The Generate Bar</h2>
-<p>The generate bar fine tunes the generated text. 
-<img alt="generate bar" src="./images/generate_bar.png" /></p>
-<ul>
-<li>Choose the level of creativity in the text.</li>
-<li>How many words long the text is.</li>
-<li>Which author to generate in the style of.</li>
-</ul>
-<h2 id="suggestions">Suggestions</h2>
-<p>Generated text is shown in the suggestions panel.
+<h1 id="inleiding">Inleiding</h1>
+<p>Deze pagina geeft een bescrhrijving en handleiding van AsiBot. Asibot is een web-applicatie waarmee schrijvers een interactie kunnen aangaan met een geavanceerd tekstgeneratie-systeem.</p>
+<h1 id="aanmelden">Aanmelden</h1>
+<p>Omdat AsiBot via het web wordt aangeboden, vragen we je om een account aan te maken via de registratie-pagina. Klik op de link 'registreer'.</p>
+<h1 id="opzet-van-asibot">Opzet van AsiBot</h1>
+<p>De interface van AsiBot is zo simpel mogelijk gehouden. Alle interactie met de applicatie vindt plaats op een enkele pagina met drie onderdelen: (1) een toolbar met een reeks knoppen om het tekstgeneratie-systeem aan te sturen, en (2) een panel waarin de tekstsuggesties van het systeem worden weergegeven, en (3) een tekst-editor. Hieronder bespreken we elk onderdeel 
+in iets meer detail.</p>
+<h2 id="generatie-toolbar">Generatie-toolbar</h2>
+<p><img alt="generate bar" src="./images/generate_bar.png" /></p>
+<p>De generatie-toolbar geeft een aantal opties om het tekstgeneratie-systeem aan te sturen. De belangrijkste knoppen zijn de pastel-gekleurde knoppen aan de rechterkant, die elk tekst genereren in een bepaalde 'stijl'. Houd de muis op een van de knoppen om de volledige naam van de stijl te zien. Na het klikken op een van de knoppen, geeft het systeem een aantal tekstsuggesties in de gekozen stijl. Deze suggesties zijn aanklikbaar en worden toegevoegd aan de tekst op de plaats waar de cursor in het tekstvak staat. Naast de genereer-knoppen geeft de toolbar nog twee andere opties: een creativiteitsschuif en een lengteschuif. De lengteschuif controleert hoe lang de gegeneerde tekst zal zijn in aantal karakters. De creativiteitsschuif controleert hoe divers de gegenereerd tekst zal zijn. Lagere waardes zorgen voor conservatievere tekst; hogere voor creatievere tekst. Het is voor elk model wat zoeken naar een ideale waarde. De kans op ongrammaticale zinnen neemt toe met hogere waardes (maar soms worden wel erg leuke suggesties gedaan en worden zelfs nieuwe woorden bedacht). Lagere waardes kunnen soms wat eentonig aandoen, maar zijn vaak wel grammaticaal correct. Ideale waardes liggen vaak tussen 0.3 en 0.5, maar experimenteren is het beste advies.</p>
+<h2 id="tekstsuggesties">Tekstsuggesties</h2>
+<p>Na het klikken op een van de generatie-knoppen, doet het systeem een aantal tekstsuggesties die onderaan de pagina worden weergegeven.
 <img alt="suggestions" src="./images/suggestions.png" /></p>
 <ul>
-<li>The panel will open after you have generated text.</li>
-<li>You can keep items here throughout your session. <strong>When you refresh they will go</strong>.</li>
-<li>You can remove individual items in order to maintain a list of preferred text.</li>
-<li>The panel can be open and closed using the left-hand arrow.</li>
+<li>Elke generatie geeft drie nieuwe suggesties;</li>
+<li>Individuele suggesties kunnen bewaard worden of worden verwijderd. <strong>Pas op: als je de pagina ververst zijn de laatste (bewaarde) suggesties niet meer beschikbaar.</strong></li>
+<li>Het suggestiepaneel kan gesloten worden met het pijltje aan de linkerkant.</li>
 </ul>
-<h2 id="annotation">Annotation</h2>
+<h2 id="teksteditor">Teksteditor</h2>
+<p>AsiBot implementeert een conventionele teksteditor waarmee gebruikelijke opmaak (zoals bold, cursief, etc) toegevoegd kan worden aan de tekst. Uniek aan de editor is dat er doormiddel van kleuren de herkomst van de tekst wordt bijgehouden. </p>
 <p><img alt="annotation" src="./images/annotation.png" /></p>
-<ul>
-<li>As text is inserted into the document it will use the annotation of the model that was used.</li>
-<li>The user's text will appear in white.</li>
-<li>As you edit the generated text, its annotation will fade to white.</li>
-</ul>
-<h2 id="saving-data">Saving Data</h2>
-<p>Your text is saved automatically.</p></div>
+<p>De tekstkleuring werkt als volgt:
+- Elke aan de tekst toegevoegde tekstsuggestie krijgt een kleur die correspondeert met het model op basis waarvan die is gegenereerd.
+- <strong>Alle tekst, ook geneneerde, is aanpasbaar.</strong> Bij meer aanpassingen in gegeneerde tekst, zal de intensiteit van de kleur afnemen. Hieronder geven we nog enkele details over de tekstkleuring:
+- Originele gebruikerstekst wordt weergegeven zonder achtergrondkleur.</p>
+<h1 id="opslaan">Opslaan</h1>
+<p>Maak je geen zorgen over het opslaan van de tekst: alle tekst (inclusief tekstkleuring) wordt voortdurend automatisch opgeslagen. De browser kan ook worden gesloten. Na het inloggen wordt de laatste save geladen.</p></div>
+            
         </div>
 
         <footer class="col-md-12">
             <hr>
+            
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
         <script>var base_url = '.';</script>
         <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-            </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+        <script src="./js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
                     </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
-            </div>
-            <div class="modal-footer">
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
     </body>
 </html>
 
 <!--
-MkDocs version : 0.16.3
-Build Date UTC : 2017-06-29 13:47:21
+MkDocs version : 0.14.0
+Build Date UTC : 2017-07-01 11:08:30.065551
 -->
